@@ -1,0 +1,31 @@
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe-card {
+    width: 250px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.recipe-image-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-details {
+    padding: 10px;
+}
+
+.recipe-details h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}

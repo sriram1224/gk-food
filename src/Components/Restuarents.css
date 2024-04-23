@@ -1,0 +1,42 @@
+.text-input, .number-input{
+    padding:10px 30px;
+    border-radius: 10px;
+    border: 1px solid #434040;
+}
+
+.list-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.list{
+    width: 30%;
+    text-align: center;
+    height: 30%;
+    margin: 10px;
+   padding:10px 0;
+    border: 1px solid #e0e0e0;
+ 
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 9rem;
+
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 2px;
+    color: rgb(129, 206, 128);
+   padding: 20px;
+   border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+   background-color: rgb(238, 238, 238);
+    
+}

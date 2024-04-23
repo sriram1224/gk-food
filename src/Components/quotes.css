@@ -1,0 +1,68 @@
+.one {
+    width: 100%;
+    padding: 1rem;
+    /* assuming 1rem = 16px */
+    text-align: center;
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cbd5e0;
+    border-radius: 0.5rem;
+    /* assuming 0.5rem = 8px */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* example shadow, adjust as needed */
+}
+
+@media (min-width: 640px) {
+    .one {
+        padding: 2rem;
+        /* assuming 2rem = 32px */
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .one {
+        background-color: #2d3748;
+        border-color: #4a5568;
+    }
+}
+.two {
+    margin-bottom: 0.5rem;
+    /* assuming 0.5rem = 8px */
+    font-size: 1.875rem;
+    /* assuming 1.875rem = 30px */
+    font-weight: bold;
+    color: #333;
+    /* Fallback color for browsers that don't support dark mode */
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .two {
+        color: #fff;
+       
+    }
+}
+
+.three {
+    margin-bottom: 1.25rem;
+    /* assuming 1.25rem = 20px */
+    font-size: 1rem;
+    /* assuming 1rem = 16px */
+    color: #666;
+    /* Fallback color for browsers that don't support dark mode */
+}
+
+@media (min-width: 640px) {
+    .three {
+        font-size: 1.125rem;
+        /* assuming 1.125rem = 18px */
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .three {
+        color: #888;
+        /* assuming #888 is equivalent to Tailwind's gray-400 */
+    }
+}

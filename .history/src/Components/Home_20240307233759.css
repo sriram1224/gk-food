@@ -1,0 +1,145 @@
+.header{
+   
+   
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    font-size: 12px;
+   margin: 0 5rem;
+    color: white;
+}
+.logo h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+}
+.Home{
+    color:rgb(37,99,235);
+}
+.logo{
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav ul{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 12px;
+
+}
+.Nav{
+    background-color: rgb(17,24,39);
+    height: 4.5rem;
+    align-items:center;
+    padding-top: 10px;
+}
+.header-button{
+    margin-top: 10px;
+padding: 10px;
+border-radius: 10px;
+background-color:rgb(37,99,235);
+color:white;
+font-weight: bold;
+border: none;
+}
+.main1 .image img{
+    max-height: 100vh;
+    width: 100%;    
+
+}
+.main1 .heading{
+
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: large;
+        width: 30rem;
+        
+}
+.main1 .heading h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+.main1 .heading button{
+    
+width: 9rem;
+height: 3rem;
+    border-radius: 3px;
+    
+    border: 2px solid black;
+  
+    font-weight: bold;
+    border: none;
+    
+   
+}
+.main1 .heading .button-container{
+    display: flex;
+    padding-left: 50px;
+    gap: 20px;
+    
+    
+}
+.one{
+    background-color:rgb(225,29,72);
+    color: white;
+
+}
+.two{
+    color: rgb(225,29,72);
+}
+.main2 img{
+    width: 50rem;
+    height: 40rem;
+    
+    border-radius:3px
+    
+    
+}
+.main2 .main2-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(238, 238, 238, 0.738);
+    height: 47rem;
+    width:55%;
+    margin: 2rem 0 0 40rem;
+    border-radius:3px;
+
+   
+}
+.main2-1{
+    position: absolute;
+    top: 55rem;
+    left: 6%;
+    display: flex;
+    gap: 4rem;
+    
+
+}
+.main2-1 .text{
+    width: 30rem;
+    text-align: left;
+    align-items: center;
+    margin-top: 5rem;
+}
+.main2-1 .text button{
+   padding: 0.7rem 3rem;
+   margin-top: 2rem;
+
+}
+.button{
+    background-color:rgb(37,99,235);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+
